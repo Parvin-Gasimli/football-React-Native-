@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Football App",
+    "slug": "football",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/fgh.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fgh.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/48.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.football.myapp"
+    },
+    "web": {
+      "favicon": "./assets/48.png"
+    }
+  }
+}
